@@ -1,7 +1,7 @@
 ---
 version: "2"
 use_cases:
-- name: test
+- name: default
   sections:
   - name: section-A
     groups:
