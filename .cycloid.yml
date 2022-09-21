@@ -19,7 +19,7 @@ technologies:
     version: n/a
 
 config:
-  default:
+  test:
     name: 'Default'
     description: 'Default pipeline usecase'
     pipeline:
