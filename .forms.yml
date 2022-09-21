@@ -1,7 +1,13 @@
 ---
-default:
-  pipeline:
-    config:
+version: "2"
+use_cases:
+- name: default
+  sections:
+  - name: section-A
+    groups:
+    - name: group-1
+      technologies: [pipeline]
+      vars:
       - name: "Message"
         description: "Message to display in the job"
         key: message
