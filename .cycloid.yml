@@ -24,7 +24,7 @@ config:
     description: 'Default pipeline usecase'
     pipeline:
       pipeline:
-        path: 'pipeline/test.pipeline.yml'
+        path: 'pipeline/pipeline.yml'
       variables:
-        path: 'pipeline/variables.sample.yml'
+        path: 'pipeline/test.variables.sample.yml'
         destination: '($ project $)/pipeline/variables-($ environment $).yml'
